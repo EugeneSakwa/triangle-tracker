@@ -1,5 +1,5 @@
 function triangle() {
-	// get the values of triangle sides from the form
+	// get the values of triangle dimention from the form
   var a=document.getElementById("length").value;
   var b=document.getElementById("width").value;
   var c=document.getElementById("height").value;
