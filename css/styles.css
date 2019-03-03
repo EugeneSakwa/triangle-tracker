@@ -1,0 +1,29 @@
+/*h1{
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+body{
+  color:red;
+  font-family: monospace;
+  font-style: oblique;
+  background-image: url(https://cdn2.vectorstock.com/i/1000x1000/73/96/dark-flat-triangle-background-or-seamless-pattern-vector-1997396.jpg);
+  text-align: left;
+}*/
+.inputs{
+  text-align:center;
+  text-decoration: underline;
+  color: blue;
+  border:2px solid red;
+}
+button{
+  width: 180px;
+}
+img{
+  width: 90px;
+  float: right;
+}
