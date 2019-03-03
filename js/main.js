@@ -9,9 +9,6 @@ function resultCheck() {
 	b = values[1];
 	c = values[2];
 	console.log(a,b,c);
-	w = b + c;
-	x = a + b;
-	y = c + a;
 	// check if the value is greater than zero
 	if ((a+b)>c && (a+c) >b && (b+c) > a){
 		if (true) {
