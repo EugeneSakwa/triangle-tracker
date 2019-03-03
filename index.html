@@ -4,6 +4,26 @@
   <title>Triangle Tracker</title>
 </head>
 <body>
+  <div class="container">
+		<div class="row">
+			<header class="header col-md-8 offset-md-2">
+				<h1 class="text-large">Triangle Checker</h1>
+				<p>Kindly fill in the length of the sides below to check your triangle.</p>
+			</header>
+			<div class="col-md-8 col-sm-10 offset-md-2 offset-sm-2 col-xs-8 offset-xs-4">
+					<form action="" class="form-group">
+						<label for="" class="form-label">Value of side a</label>
+						<input type="text" class="form-control" name="a">
+						<label for="" class="form-label">Value of side b</label>
+						<input type="text" class="form-control" name="b">
+						<label for="" class="form-label">Value of side c</label>
+						<input type="text" class="form-control" name="c">
+						<br>
+						<input type="submit" class="btn btn-success round" onclick="resultCheck()" data-toggle="modal" data-target="#calcModal">
+					</form>
+			</div>
+		</div>
+	</div>
    <script src="js/main.js"></script>
 </body>
 </html>
