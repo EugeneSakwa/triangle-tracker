@@ -1,25 +1,27 @@
-/*h1{
+h1{
   text-align: center;
-  text-decoration: underline;
-  color: red;
+  text-decoration: none;
   font-size: 40px;
   font-family: sans-serif;
-  font-style: italic;
-  font-weight: normal;
-}*/
+  font-weight: bold;
+}
 body{
   background-image: url(../images/triangles.jpg);
+  justify-content: center;
 }
 .inputs{
   text-align:center;
-  text-decoration: underline;
+  text-decoration: none;
   color: blue;
-  border:2px solid red;
+  border:5px solid silver;
 }
 button{
   width: 180px;
+  background-color: green;
 }
-img{
-  width: 90px;
-  float: right;
+.buttons-holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
