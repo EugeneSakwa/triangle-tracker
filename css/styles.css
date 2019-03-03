@@ -6,14 +6,10 @@
   font-family: sans-serif;
   font-style: italic;
   font-weight: normal;
-}
-body{
-  color:red;
-  font-family: monospace;
-  font-style: oblique;
-  background-image: url(https://cdn2.vectorstock.com/i/1000x1000/73/96/dark-flat-triangle-background-or-seamless-pattern-vector-1997396.jpg);
-  text-align: left;
 }*/
+body{
+  background-image: url(../images/triangles.jpg);
+}
 .inputs{
   text-align:center;
   text-decoration: underline;
