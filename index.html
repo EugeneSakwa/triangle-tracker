@@ -2,38 +2,22 @@
 <html>
 <head>
   <title>Triangle Tracker</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="container">
-		<div class="row">
-			<header class="header col-md-8 offset-md-2">
-				<h1 class="text-large">Triangle Checker</h1>
-				<p>Kindly fill in the length of the sides below to check your triangle.</p>
-			</header>
-			<div class="col-md-8 col-sm-10 offset-md-2 offset-sm-2 col-xs-8 offset-xs-4">
-					<form action="" class="form-group">
-						<label for="" class="form-label">Value of side a</label>
-						<input type="text" class="form-control" name="a">
-						<label for="" class="form-label">Value of side b</label>
-						<input type="text" class="form-control" name="b">
-						<label for="" class="form-label">Value of side c</label>
-						<input type="text" class="form-control" name="c">
-						<br>
-						<input type="submit" class="btn btn-success round" onclick="resultCheck()" data-toggle="modal" data-target="#calcModal">
-					</form>
-			</div>
-		</div>
-	</div>
-   <script src="js/jquery-3.3.1.js"></script>
-   <script src="js/main.js"></script>
-   <script>
-		$('#calcModal').on('show.bs.modal', function (event) {
-		  var button = $(event.relatedTarget) // Button that triggered the modal
-		  var recipient = button.data('whatever')
-		  var modal = $(this)
-		  modal.find('.modal-title').text('New message to ' + recipient)
-		  modal.find('.modal-body input').val(recipient)
-		})
-	</script>
+  <h1>Triangle Tracker</h1>
+  <script src="js/scripts.js"></script>
+  <p>This project allows you to find out whether or not it is possible to form a triangle using your inputs
+  and what kind of triangle you can create.</p>
+  <h2>Find what type of triangle</h2>
+  <form class="inputs">
+  <h1>Length:<br></h1>
+    <input type="number" name="length" id="length"><br>
+    <h1>Width:<br></h1>
+    <input type="number" name="width" id="width"><br>
+    <h1>height:<br></h1>
+    <input type="number" name="height" id="height"><br>
+  </form>
+  <button type="button" name="Find out" onclick="triangle()">See!</button>
 </body>
 </html>
